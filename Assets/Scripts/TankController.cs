@@ -40,7 +40,6 @@ public class TankController : MonoBehaviour
         if (turretMovement != Vector3.zero)
         {
             TankTurret.rotation = Quaternion.LookRotation(turretMovement);
-            //TankTurret.Translate(movement * movementSpeed * Time.deltaTime, Space.World);
         }
 
     }
