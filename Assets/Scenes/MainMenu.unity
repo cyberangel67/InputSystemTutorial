@@ -377,6 +377,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00b5a8045a3c3914bb0dfdf2d62f05c9, type: 3}
+--- !u!4 &1302512938 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3694840045390894969, guid: a4a69cd9d8904844791d3bc440545741, type: 3}
+  m_PrefabInstance: {fileID: 8725167135513439739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &477031711873670087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9189811199496386108, guid: a4a69cd9d8904844791d3bc440545741, type: 3}
@@ -396,6 +401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 10
   TankTurret: {fileID: 785890602}
+  TankBottom: {fileID: 1302512938}
 --- !u!1001 &8725167135513439739
 PrefabInstance:
   m_ObjectHideFlags: 0
