@@ -9,6 +9,13 @@ public class TankController : MonoBehaviour
     [SerializeField] private Transform TankTurret;
     [SerializeField] private Transform TankBottom;
 
+    private Rigidbody rb;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();        
+    }
+
     void Update()
     {
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
@@ -23,7 +30,8 @@ public class TankController : MonoBehaviour
         if (movement != Vector3.zero)
         {
             TankBottom.rotation = Quaternion.LookRotation(movement);
-            transform.Translate(movement * movementSpeed * Time.deltaTime, Space.World);
+            Vector3 desiredVelocity = movement * movementSpeed;
+            rb.velocity = desiredVelocity;
         }
 
         if (turretMovement != Vector3.zero)
