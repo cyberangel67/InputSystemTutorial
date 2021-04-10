@@ -29,7 +29,7 @@ public class TankController : MonoBehaviour
 
         if (movement != Vector3.zero)
         {
-            TankBottom.rotation = Quaternion.LookRotation(movement);
+            transform.rotation = Quaternion.LookRotation(movement);
             Vector3 desiredVelocity = movement * movementSpeed;
             rb.velocity = desiredVelocity;
         } else
