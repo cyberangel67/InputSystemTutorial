@@ -9,7 +9,6 @@ public class TankController : MonoBehaviour
     [SerializeField] private Transform TankTurret;
     [SerializeField] private Transform TankBottom;
 
-    // Update is called once per frame
     void Update()
     {
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
