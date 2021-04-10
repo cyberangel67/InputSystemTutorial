@@ -32,6 +32,9 @@ public class TankController : MonoBehaviour
             TankBottom.rotation = Quaternion.LookRotation(movement);
             Vector3 desiredVelocity = movement * movementSpeed;
             rb.velocity = desiredVelocity;
+        } else
+        {
+            rb.velocity = Vector3.zero;
         }
 
         if (turretMovement != Vector3.zero)
