@@ -13,23 +13,17 @@ public class TankController : MonoBehaviour
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody>();        
+        rb = TankBottom.gameObject.GetComponent<Rigidbody>();        
     }
 
     void Update()
     {
-        float moveHorizontal = Input.GetAxisRaw("Horizontal");
-        float moveVertical = Input.GetAxisRaw("Vertical");
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-
-
-        float turretHorizontal = Input.GetAxisRaw("RS_Horizontal");
-        float turretVertical = Input.GetAxisRaw("RS_Vertical");
-        Vector3 turretMovement = new Vector3(turretHorizontal, 0.0f, turretVertical);
+        Vector3 movement = GetTankMovement();
+        Vector3 turretMovement = GetTurretRotation();
 
         if (movement != Vector3.zero)
         {
-            transform.rotation = Quaternion.LookRotation(movement);
+            TankBottom.rotation = Quaternion.LookRotation(movement);
             Vector3 desiredVelocity = movement * movementSpeed;
             rb.velocity = desiredVelocity;
         } else
@@ -43,4 +37,21 @@ public class TankController : MonoBehaviour
         }
 
     }
+
+    private Vector3 GetTankMovement()
+    {
+        float moveHorizontal = Input.GetAxisRaw("Horizontal");
+        float moveVertical = Input.GetAxisRaw("Vertical");
+
+        return new Vector3(moveHorizontal, 0.0f, moveVertical);
+    }
+
+    private Vector3 GetTurretRotation()
+    {
+        float turretHorizontal = Input.GetAxisRaw("RS_Horizontal");
+        float turretVertical = Input.GetAxisRaw("RS_Vertical");
+
+        return new Vector3(turretHorizontal, 0.0f, turretVertical);
+    }
+
 }
