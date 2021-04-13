@@ -9,14 +9,15 @@ public class MouseLook : MonoBehaviour
 
     [SerializeField] private float mouseSensitivity = 100f;
     [SerializeField] private Transform playerBody;
-    [Space] [SerializeField] private bool newInputSystem = false;
 
     float xRotation = 0f;
-    Vector2 MousePosition() => Mouse.current.delta.ReadValue();
-    Vector2 RightStick() => Gamepad.current.rightStick.ReadValue();
 
-    InputAction action;
-    Vector2 GetLookDirection() => action.ReadValue<Vector2>() * mouseSensitivity * Time.deltaTime;
+
+    //Vector2 MousePosition() => Mouse.current.delta.ReadValue();
+    //Vector2 RightStick() => Gamepad.current.rightStick.ReadValue();
+
+    //InputAction action;
+    //Vector2 GetLookDirection() => action.ReadValue<Vector2>() * mouseSensitivity * Time.deltaTime;
 
     private void Start()
     {
@@ -24,28 +25,35 @@ public class MouseLook : MonoBehaviour
 
         //If its the old input system then change the sensitivity.
 #if UNITY_EDITOR
-        if (!newInputSystem)
-        {
-            mouseSensitivity *= 5;
-        }
+            mouseSensitivity *= 10;
 #endif
 
-        action = new InputAction(binding: "<Gamepad>/rightStick");
-        action.AddBinding("<Mouse>/delta");
-        action.Enable();
+        //action = new InputAction(binding: "<Gamepad>/rightStick");
+        //action.AddBinding("<Mouse>/delta");
+        //action.Enable();
 
     }
 
     void Update()
     {
-
         //Use old mouse input system
-        //Vector2 direction = OldMouseLook();
+        Vector2 direction = OldMouseLook();
+
+        //Use for default new Input.System
+        //Vector2 direction = DoDefaultLook();
+
+        //Use for default new Input.System
+        //Vector2 direction = DoGamepadLook();
 
         //Use of simple action.
-        Vector2 direction = GetLookDirection();
+        //Vector2 direction = GetLookDirection();
 
-        xRotation -= GetLookDirection().y;
+        DoLook(direction);
+    }
+
+    private void DoLook(Vector2 direction)
+    {
+        xRotation -= direction.y;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
@@ -60,20 +68,20 @@ public class MouseLook : MonoBehaviour
         return new Vector2(mouseX, mouseY);
     }
 
-    private Vector2 DoMouseLook()
-    {
-        float mouseX = MousePosition().x * mouseSensitivity * Time.deltaTime;
-        float mouseY = MousePosition().y * mouseSensitivity * Time.deltaTime;
+    //private Vector2 DoDefaultLook()
+    //{
+    //    float mouseX = MousePosition().x * mouseSensitivity * Time.deltaTime;
+    //    float mouseY = MousePosition().y * mouseSensitivity * Time.deltaTime;
 
-        return new Vector2(mouseX, mouseY);
-    }
+    //    return new Vector2(mouseX, mouseY);
+    //}
 
-    private Vector2 DoGamepadLook()
-    {
-        float mouseX = RightStick().x * mouseSensitivity * Time.deltaTime;
-        float mouseY = RightStick().y * mouseSensitivity * Time.deltaTime;
+    //private Vector2 DoGamepadLook()
+    //{
+    //    float mouseX = RightStick().x * mouseSensitivity * Time.deltaTime;
+    //    float mouseY = RightStick().y * mouseSensitivity * Time.deltaTime;
 
-        return new Vector2(mouseX, mouseY);
-    }
+    //    return new Vector2(mouseX, mouseY);
+    //}
 
 }

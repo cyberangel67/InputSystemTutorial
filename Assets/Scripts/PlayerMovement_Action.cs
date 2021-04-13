@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement_Action : MonoBehaviour
 {
-
     [SerializeField] private CharacterController controller;
     [SerializeField] private float gravity = -9.81f;
     [SerializeField] private Transform groundCheck;
@@ -19,13 +18,6 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded() => Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
     Vector2 GetDirection() => action.ReadValue<Vector2>();
-
-    //Input Type 1
-    float Vertical => Keyboard.current.wKey.ReadValue() - Keyboard.current.sKey.ReadValue();
-    float Horizontal => Keyboard.current.dKey.ReadValue() - Keyboard.current.aKey.ReadValue();
-    Vector2 LeftStick() => Gamepad.current.leftStick.ReadValue();
-    bool JumpPressed() => Gamepad.current.buttonSouth.wasPressedThisFrame;
-    //bool KeyJump() => Keyboard.current.spaceKey.wasPressedThisFrame;
 
     InputAction action;
     InputAction jumpAction;
@@ -54,21 +46,19 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-
     void Update()
     {
-        if(isGrounded() && velocity.y < 0)
+        if (isGrounded() && velocity.y < 0)
         {
             velocity.y = -2f;
         }
 
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        Vector3 move = transform.right * GetDirection().x + transform.forward * GetDirection().y;
 
-        Vector3 move = transform.right * x + transform.forward * z;
-
-        if ( Input.GetButtonDown("Jump") && isGrounded())
+        if (jumpAction.triggered && isGrounded())
         {
+            Debug.Log($"{jumpAction.triggered}");
+
             velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
         }
 
@@ -77,7 +67,5 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
     }
-
-
 
 }

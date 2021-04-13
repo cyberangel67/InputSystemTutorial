@@ -22,10 +22,18 @@
                     "interactions": ""
                 },
                 {
-                    "name": "MouseLook",
+                    "name": "LookAround",
                     "type": "Value",
-                    "id": "3862be18-b0e0-46df-8632-f71939f2377c",
-                    "expectedControlType": "Vector2",
+                    "id": "adb10c79-3717-420a-bb17-0cba26c1fb2e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "6d0ea51f-58de-4b96-a1e7-2f34613ddff3",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
                 }
@@ -56,7 +64,7 @@
                 {
                     "name": "up",
                     "id": "420de0cf-2748-44dc-9e13-4a6f6036f04e",
-                    "path": "",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -67,7 +75,7 @@
                 {
                     "name": "down",
                     "id": "d077dabf-23c4-400b-a23c-215eef766032",
-                    "path": "",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -78,7 +86,7 @@
                 {
                     "name": "left",
                     "id": "b4a4660f-076c-462a-9b51-b17681300b56",
-                    "path": "",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -89,7 +97,7 @@
                 {
                     "name": "right",
                     "id": "34102173-54d6-4701-bc57-3de8391b408b",
-                    "path": "",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -121,12 +129,34 @@
                 },
                 {
                     "name": "",
-                    "id": "33bf4b00-738b-4b4b-8f3a-9afcd8ef7219",
+                    "id": "8a50bd22-a398-4e35-a8fd-4ec3eb3e2594",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=5,y=5)",
+                    "groups": "Gamepad",
+                    "action": "LookAround",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "214d0022-e01d-4999-af1a-121d5b359c64",
                     "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "Mouse",
-                    "action": "MouseLook",
+                    "action": "LookAround",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f39014d-89c9-4243-802f-64bfe85a9012",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
