@@ -34,10 +34,8 @@ public class MouseLook_Old : MonoBehaviour
         xRotation -= direction.y;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        xAccumulator = Mathf.Lerp(xAccumulator, direction.x, Snappiness * Time.deltaTime);
-
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * xAccumulator);
+        playerBody.Rotate(Vector3.up * direction.x);
     }
 
     private Vector2 OldMouseLook()
