@@ -10,12 +10,15 @@ public class MouseLook_Old : MonoBehaviour
 
     float xRotation = 0f;
 
+    float xAccumulator;
+    const float Snappiness = 30.0f;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
 
 #if UNITY_EDITOR
-        mouseSensitivity *= 10;
+        mouseSensitivity *= 1;
 #endif
     }
 
@@ -31,14 +34,16 @@ public class MouseLook_Old : MonoBehaviour
         xRotation -= direction.y;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
+        xAccumulator = Mathf.Lerp(xAccumulator, direction.x, Snappiness * Time.deltaTime);
+
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * direction.x);
+        playerBody.Rotate(Vector3.up * xAccumulator);
     }
 
     private Vector2 OldMouseLook()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
         return new Vector2(mouseX, mouseY);
     }
