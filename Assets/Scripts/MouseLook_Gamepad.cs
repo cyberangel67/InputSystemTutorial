@@ -27,6 +27,9 @@ public class MouseLook_Gamepad : MonoBehaviour
 
     private void DoLook(Vector2 direction)
     {
+
+        direction *= 0.3f;
+
         xRotation -= direction.y;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
@@ -36,8 +39,8 @@ public class MouseLook_Gamepad : MonoBehaviour
 
     private Vector2 DoGamepadLook()
     {
-        float mouseX = RightStick().x * mouseSensitivity * Time.deltaTime;
-        float mouseY = RightStick().y * mouseSensitivity * Time.deltaTime;
+        float mouseX = RightStick().x * mouseSensitivity;
+        float mouseY = RightStick().y * mouseSensitivity;
 
         return new Vector2(mouseX, mouseY);
     }

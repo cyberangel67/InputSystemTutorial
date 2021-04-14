@@ -1508,7 +1508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8936a283c6f19a549b75b8ea807bbc13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 4
+  mouseSensitivity: 3
   playerBody: {fileID: 6428774015688833626}
 --- !u!114 &1405926423934669290
 MonoBehaviour:
@@ -1522,7 +1522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2052793cf6ad324d884b1751186a8fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 3
   playerBody: {fileID: 6428774015688833626}
 --- !u!114 &1405926423934669291
 MonoBehaviour:
@@ -1536,7 +1536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a7ada2de114b2d418119a23a7d90e2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 3
   playerBody: {fileID: 6428774015688833626}
 --- !u!114 &1405926423934669292
 MonoBehaviour:
@@ -26301,7 +26301,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   jumpHeight: 3
-  speed: 12
+  walkSpeed: 12
+  runSpeed: 20
 --- !u!114 &6428774015688833622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26322,7 +26323,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   jumpHeight: 3
-  speed: 12
+  walkSpeed: 12
+  runSpeed: 20
 --- !u!114 &6428774015688833623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26343,7 +26345,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   jumpHeight: 3
-  speed: 12
+  walkSpeed: 12
+  runSpeed: 20
 --- !u!114 &6428774015688833624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26364,7 +26367,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   jumpHeight: 3
-  speed: 12
+  walkSpeed: 12
+  runSpeed: 20
 --- !u!114 &6428774015688833625
 MonoBehaviour:
   m_ObjectHideFlags: 0

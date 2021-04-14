@@ -174,10 +174,21 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""0f39014d-89c9-4243-802f-64bfe85a9012"",
-                    ""path"": """",
+                    ""path"": ""<Gamepad>/leftStickPress"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Run"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cf3a8bb9-51bf-4fc1-8a17-37e4393fbe3f"",
+                    ""path"": ""<Keyboard>/leftShift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard/Mouse"",
                     ""action"": ""Run"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false

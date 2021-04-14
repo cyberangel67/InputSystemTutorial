@@ -12,8 +12,10 @@ public class PlayerMovement_Default : MonoBehaviour
     [SerializeField] private float groundDistance = 0.4f;
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float jumpHeight;
+    [SerializeField] private float walkSpeed = 12f;
+    [SerializeField] private float runSpeed = 20f;
 
-    public float speed = 12f;
+    private float speed;
 
     Vector3 velocity;
     bool isGrounded() => Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -22,6 +24,7 @@ public class PlayerMovement_Default : MonoBehaviour
     float Vertical => Keyboard.current.wKey.ReadValue() - Keyboard.current.sKey.ReadValue();
     float Horizontal => Keyboard.current.dKey.ReadValue() - Keyboard.current.aKey.ReadValue();
     bool KeyJump() => Keyboard.current.spaceKey.wasPressedThisFrame;
+    bool IsRunning() => Keyboard.current.leftShiftKey.IsPressed();
 
     void Update()
     {
@@ -35,6 +38,12 @@ public class PlayerMovement_Default : MonoBehaviour
         if (KeyJump() && isGrounded())
         {
             velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
+        }
+
+        speed = walkSpeed;
+        if (IsRunning())
+        {
+            speed = runSpeed;
         }
 
         controller.Move(move * speed * Time.deltaTime);

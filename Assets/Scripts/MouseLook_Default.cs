@@ -28,6 +28,9 @@ public class MouseLook_Default : MonoBehaviour
 
     private void DoLook(Vector2 direction)
     {
+        direction *= 0.5f;
+        direction *= 0.1f;
+
         xRotation -= direction.y;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
@@ -37,8 +40,8 @@ public class MouseLook_Default : MonoBehaviour
 
     private Vector2 DoDefaultLook()
     {
-        float mouseX = MousePosition().x * mouseSensitivity * Time.deltaTime;
-        float mouseY = MousePosition().y * mouseSensitivity * Time.deltaTime;
+        float mouseX = MousePosition().x * mouseSensitivity;
+        float mouseY = MousePosition().y * mouseSensitivity;
 
         return new Vector2(mouseX, mouseY);
     }

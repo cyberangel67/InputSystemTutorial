@@ -11,16 +11,20 @@ public class PlayerMovement_Action : MonoBehaviour
     [SerializeField] private float groundDistance = 0.4f;
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float jumpHeight;
-
-    public float speed = 12f;
+    [SerializeField] private float walkSpeed = 12f;
+    [SerializeField] private float runSpeed = 12f;
 
     Vector3 velocity;
     bool isGrounded() => Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
     Vector2 GetDirection() => action.ReadValue<Vector2>();
+    bool isRunning() => runAction.IsPressed();
 
     InputAction action;
     InputAction jumpAction;
+    InputAction runAction;
+
+    private float speed;
 
     private void Start()
     {
@@ -38,11 +42,14 @@ public class PlayerMovement_Action : MonoBehaviour
             .With("Right", "<Gamepad>/leftStick/right");
 
         jumpAction = new InputAction(type: InputActionType.Button, binding: "<Gamepad>/buttonSouth");
-
         jumpAction.AddBinding("<Keyboard>/space");
+
+        runAction = new InputAction(type: InputActionType.Button, binding: "<Gamepad>/leftStickPress");
+        runAction.AddBinding("<Keyboard>/leftShift");
 
         action.Enable();
         jumpAction.Enable();
+        runAction.Enable();
 
     }
 
@@ -57,9 +64,13 @@ public class PlayerMovement_Action : MonoBehaviour
 
         if (jumpAction.triggered && isGrounded())
         {
-            Debug.Log($"{jumpAction.triggered}");
-
             velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
+        }
+
+        speed = walkSpeed;
+        if (isRunning())
+        {
+            speed = runSpeed;
         }
 
         controller.Move(move * speed * Time.deltaTime);

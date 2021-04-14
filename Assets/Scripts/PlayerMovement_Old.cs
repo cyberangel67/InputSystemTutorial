@@ -10,8 +10,10 @@ public class PlayerMovement_Old : MonoBehaviour
     [SerializeField] private float groundDistance = 0.4f;
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float jumpHeight;
+    [SerializeField] private float walkSpeed = 12f;
+    [SerializeField] private float runSpeed = 20f;
 
-    public float speed = 12f;
+    private float speed;
 
     Vector3 velocity;
     bool isGrounded() => Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -30,6 +32,12 @@ public class PlayerMovement_Old : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
             velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
+        }
+
+        speed = walkSpeed;
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = runSpeed;
         }
 
         controller.Move(move * speed * Time.deltaTime);
