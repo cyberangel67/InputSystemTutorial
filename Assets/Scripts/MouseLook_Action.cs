@@ -11,33 +11,29 @@ public class MouseLook_Action : MonoBehaviour
     float xRotation = 0f;
 
     InputAction action;
-    Vector2 GetLookDirection() => action.ReadValue<Vector2>() * mouseSensitivity * Time.deltaTime;
-
-    float xAccumulator;
-    const float Snappiness = 30.0f;
+    Vector2 LookMouse() => action.ReadValue<Vector2>();
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        action = new InputAction(binding: "<Gamepad>/rightStick", processors: "ScaleVector2(x=3,y=2)");
-        action.AddBinding("<Mouse>/delta", processors: "ScaleVector2(x=1.5, y=0.9)"); 
+        action = new InputAction(type: InputActionType.Value);
+        action.AddBinding("<Gamepad>/rightStick", processors: "ScaleVector2(x=0.3, y=0.3)");
+        action.AddBinding("<Mouse>/delta", processors: "ScaleVector2(x=0.5, y=0.5),ScaleVector2(x=0.1, y=0.1)");
         action.Enable();
-
     }
 
     void Update()
     {
-        Vector2 direction = GetLookDirection();
+        var delta = LookMouse();
 
-        xRotation -= direction.y;
-        xRotation = Mathf.Clamp(xRotation , -90f, 90f);
-
-        //xAccumulator = Mathf.Lerp(xAccumulator, direction.x, Snappiness * Time.deltaTime);
+        delta *= mouseSensitivity;
+        xRotation -= delta.y;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * direction.x);
+        playerBody.Rotate(Vector3.up * delta.x);
     }
 
 }
