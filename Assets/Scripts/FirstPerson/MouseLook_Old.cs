@@ -17,9 +17,6 @@ public class MouseLook_Old : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
 
-#if UNITY_EDITOR
-        mouseSensitivity *= 1;
-#endif
     }
 
     void Update()

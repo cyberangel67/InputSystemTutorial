@@ -24,7 +24,7 @@ public class PlayerMovement_Default : MonoBehaviour
     float Vertical => Keyboard.current.wKey.ReadValue() - Keyboard.current.sKey.ReadValue();
     float Horizontal => Keyboard.current.dKey.ReadValue() - Keyboard.current.aKey.ReadValue();
     bool KeyJump() => Keyboard.current.spaceKey.wasPressedThisFrame;
-    bool IsRunning() => Keyboard.current.leftShiftKey.IsPressed();
+    bool isRunning() => Keyboard.current.leftShiftKey.IsPressed();
     bool canJump() => KeyJump() && isGrounded();
 
     void Update()

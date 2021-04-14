@@ -21,7 +21,7 @@ public class PlayerMovement_Gamepad : MonoBehaviour
 
     Vector2 LeftStick() => Gamepad.current != null ? Gamepad.current.leftStick.ReadValue() : Vector2.zero;
     bool JumpPressed() => Gamepad.current != null ? Gamepad.current.buttonSouth.wasPressedThisFrame : false;
-    bool IsRunning() => Gamepad.current != null ? Gamepad.current.leftStickButton.IsPressed() : false;
+    bool isRunning() => Gamepad.current != null ? Gamepad.current.leftStickButton.IsPressed() : false;
     bool canJump() => JumpPressed() && isGrounded();
 
     void Update()
