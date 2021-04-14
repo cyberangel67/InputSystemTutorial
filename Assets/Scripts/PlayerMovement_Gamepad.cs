@@ -22,6 +22,7 @@ public class PlayerMovement_Gamepad : MonoBehaviour
     Vector2 LeftStick() => Gamepad.current != null ? Gamepad.current.leftStick.ReadValue() : Vector2.zero;
     bool JumpPressed() => Gamepad.current != null ? Gamepad.current.buttonSouth.wasPressedThisFrame : false;
     bool IsRunning() => Gamepad.current != null ? Gamepad.current.leftStickButton.IsPressed() : false;
+    bool canJump() => JumpPressed() && isGrounded();
 
     void Update()
     {
@@ -30,9 +31,7 @@ public class PlayerMovement_Gamepad : MonoBehaviour
             velocity.y = -2f;
         }
 
-        Vector3 move = transform.right * LeftStick().x + transform.forward * LeftStick().y;
-
-        if (JumpPressed() && isGrounded())
+        if (canJump())
         {
             velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
         }
@@ -43,11 +42,15 @@ public class PlayerMovement_Gamepad : MonoBehaviour
             speed = runSpeed;
         }
 
+        Vector3 move = GetDirection();
         controller.Move(move * speed * Time.deltaTime);
         velocity.y += gravity * Time.deltaTime;
-
         controller.Move(velocity * Time.deltaTime);
     }
 
+    private Vector3 GetDirection()
+    {
+        return transform.right * LeftStick().x + transform.forward * LeftStick().y;
+    }
 
 }

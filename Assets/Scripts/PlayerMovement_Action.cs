@@ -17,8 +17,9 @@ public class PlayerMovement_Action : MonoBehaviour
     Vector3 velocity;
     bool isGrounded() => Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-    Vector2 GetDirection() => action.ReadValue<Vector2>();
+    Vector2 Movement() => action.ReadValue<Vector2>();
     bool isRunning() => runAction.IsPressed();
+    bool canJump() => jumpAction.triggered && isGrounded();
 
     InputAction action;
     InputAction jumpAction;
@@ -50,7 +51,6 @@ public class PlayerMovement_Action : MonoBehaviour
         action.Enable();
         jumpAction.Enable();
         runAction.Enable();
-
     }
 
     void Update()
@@ -60,9 +60,7 @@ public class PlayerMovement_Action : MonoBehaviour
             velocity.y = -2f;
         }
 
-        Vector3 move = transform.right * GetDirection().x + transform.forward * GetDirection().y;
-
-        if (jumpAction.triggered && isGrounded())
+        if (canJump())
         {
             velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
         }
@@ -73,10 +71,15 @@ public class PlayerMovement_Action : MonoBehaviour
             speed = runSpeed;
         }
 
+        Vector3 move = GetDirection();
         controller.Move(move * speed * Time.deltaTime);
         velocity.y += gravity * Time.deltaTime;
-
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    private Vector3 GetDirection()
+    {
+        return transform.right * Movement().x + transform.forward * Movement().y;
     }
 
 }

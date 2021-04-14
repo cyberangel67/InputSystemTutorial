@@ -25,6 +25,7 @@ public class PlayerMovement_Default : MonoBehaviour
     float Horizontal => Keyboard.current.dKey.ReadValue() - Keyboard.current.aKey.ReadValue();
     bool KeyJump() => Keyboard.current.spaceKey.wasPressedThisFrame;
     bool IsRunning() => Keyboard.current.leftShiftKey.IsPressed();
+    bool canJump() => KeyJump() && isGrounded();
 
     void Update()
     {
@@ -33,9 +34,7 @@ public class PlayerMovement_Default : MonoBehaviour
             velocity.y = -2f;
         }
 
-        Vector3 move = transform.right * Horizontal + transform.forward * Vertical;
-
-        if (KeyJump() && isGrounded())
+        if (canJump())
         {
             velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
         }
@@ -46,12 +45,17 @@ public class PlayerMovement_Default : MonoBehaviour
             speed = runSpeed;
         }
 
+        Vector3 move = GetDirection();
         controller.Move(move * speed * Time.deltaTime);
         velocity.y += gravity * Time.deltaTime;
-
         controller.Move(velocity * Time.deltaTime);
     }
 
+    private Vector3 GetDirection()
+    {
+        Vector3 move = transform.right * Horizontal + transform.forward * Vertical;
 
+        return move;
+    }
 
 }
