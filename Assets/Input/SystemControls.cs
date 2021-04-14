@@ -36,17 +36,9 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""Jump"",
-                    ""type"": ""Button"",
-                    ""id"": ""1cd612a9-7209-4cb2-8840-02c28b55816d"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
                     ""name"": ""LookAround"",
                     ""type"": ""Value"",
-                    ""id"": ""adb10c79-3717-420a-bb17-0cba26c1fb2e"",
+                    ""id"": ""8fc71ac5-abb2-4582-a152-23b31ac28a9d"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
@@ -55,6 +47,14 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                     ""name"": ""Run"",
                     ""type"": ""Button"",
                     ""id"": ""6d0ea51f-58de-4b96-a1e7-2f34613ddff3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""60959519-df4c-40b6-bb31-9159d6e5bdde"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -129,7 +129,7 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""a778f648-ceb0-4ec8-9397-85bd18e3810f"",
+                    ""id"": ""b3075891-5c7c-45aa-ac77-0deda3ed638e"",
                     ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -140,34 +140,12 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""13d0d672-5aec-40b2-920b-0592f4993cc1"",
+                    ""id"": ""d98f1e45-5b43-48e9-819a-c105b20e54af"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard/Mouse"",
                     ""action"": ""Jump"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""214d0022-e01d-4999-af1a-121d5b359c64"",
-                    ""path"": ""<Mouse>/delta"",
-                    ""interactions"": """",
-                    ""processors"": ""FPSMouseDelta(valueShift=23)"",
-                    ""groups"": ""Keyboard/Mouse"",
-                    ""action"": ""LookAround"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""11717d32-6cac-4bdf-aa3b-37dce7fd60dd"",
-                    ""path"": ""<Gamepad>/rightStick/x"",
-                    ""interactions"": """",
-                    ""processors"": ""ScaleVector2(x=2,y=2),FPSMouseDelta(valueShift=2)"",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""LookAround"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -190,6 +168,28 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard/Mouse"",
                     ""action"": ""Run"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6d68866e-0efe-4f2b-b441-fc6eedad953f"",
+                    ""path"": ""<Gamepad>/rightStick"",
+                    ""interactions"": """",
+                    ""processors"": ""ScaleVector2"",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""LookAround"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""798200b3-1330-4013-a930-cd845115ac98"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": ""ScaleVector2(x=0.5,y=0.5),ScaleVector2(x=0.1,y=0.1)"",
+                    ""groups"": """",
+                    ""action"": ""LookAround"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -229,9 +229,9 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
         // PlayerControls
         m_PlayerControls = asset.FindActionMap("PlayerControls", throwIfNotFound: true);
         m_PlayerControls_Movement = m_PlayerControls.FindAction("Movement", throwIfNotFound: true);
-        m_PlayerControls_Jump = m_PlayerControls.FindAction("Jump", throwIfNotFound: true);
         m_PlayerControls_LookAround = m_PlayerControls.FindAction("LookAround", throwIfNotFound: true);
         m_PlayerControls_Run = m_PlayerControls.FindAction("Run", throwIfNotFound: true);
+        m_PlayerControls_Jump = m_PlayerControls.FindAction("Jump", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -292,17 +292,17 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
     private readonly InputActionMap m_PlayerControls;
     private IPlayerControlsActions m_PlayerControlsActionsCallbackInterface;
     private readonly InputAction m_PlayerControls_Movement;
-    private readonly InputAction m_PlayerControls_Jump;
     private readonly InputAction m_PlayerControls_LookAround;
     private readonly InputAction m_PlayerControls_Run;
+    private readonly InputAction m_PlayerControls_Jump;
     public struct PlayerControlsActions
     {
         private @SystemControls m_Wrapper;
         public PlayerControlsActions(@SystemControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_PlayerControls_Movement;
-        public InputAction @Jump => m_Wrapper.m_PlayerControls_Jump;
         public InputAction @LookAround => m_Wrapper.m_PlayerControls_LookAround;
         public InputAction @Run => m_Wrapper.m_PlayerControls_Run;
+        public InputAction @Jump => m_Wrapper.m_PlayerControls_Jump;
         public InputActionMap Get() { return m_Wrapper.m_PlayerControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -315,15 +315,15 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                 @Movement.started -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnMovement;
                 @Movement.performed -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnMovement;
                 @Movement.canceled -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnMovement;
-                @Jump.started -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnJump;
-                @Jump.performed -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnJump;
-                @Jump.canceled -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnJump;
                 @LookAround.started -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnLookAround;
                 @LookAround.performed -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnLookAround;
                 @LookAround.canceled -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnLookAround;
                 @Run.started -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnRun;
                 @Run.performed -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnRun;
                 @Run.canceled -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnRun;
+                @Jump.started -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnJump;
             }
             m_Wrapper.m_PlayerControlsActionsCallbackInterface = instance;
             if (instance != null)
@@ -331,15 +331,15 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                 @Movement.started += instance.OnMovement;
                 @Movement.performed += instance.OnMovement;
                 @Movement.canceled += instance.OnMovement;
-                @Jump.started += instance.OnJump;
-                @Jump.performed += instance.OnJump;
-                @Jump.canceled += instance.OnJump;
                 @LookAround.started += instance.OnLookAround;
                 @LookAround.performed += instance.OnLookAround;
                 @LookAround.canceled += instance.OnLookAround;
                 @Run.started += instance.OnRun;
                 @Run.performed += instance.OnRun;
                 @Run.canceled += instance.OnRun;
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
             }
         }
     }
@@ -365,8 +365,8 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
     public interface IPlayerControlsActions
     {
         void OnMovement(InputAction.CallbackContext context);
-        void OnJump(InputAction.CallbackContext context);
         void OnLookAround(InputAction.CallbackContext context);
         void OnRun(InputAction.CallbackContext context);
+        void OnJump(InputAction.CallbackContext context);
     }
 }

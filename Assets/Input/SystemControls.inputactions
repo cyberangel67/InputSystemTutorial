@@ -14,17 +14,9 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "1cd612a9-7209-4cb2-8840-02c28b55816d",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
                     "name": "LookAround",
                     "type": "Value",
-                    "id": "adb10c79-3717-420a-bb17-0cba26c1fb2e",
+                    "id": "8fc71ac5-abb2-4582-a152-23b31ac28a9d",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
@@ -33,6 +25,14 @@
                     "name": "Run",
                     "type": "Button",
                     "id": "6d0ea51f-58de-4b96-a1e7-2f34613ddff3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "60959519-df4c-40b6-bb31-9159d6e5bdde",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -107,7 +107,7 @@
                 },
                 {
                     "name": "",
-                    "id": "a778f648-ceb0-4ec8-9397-85bd18e3810f",
+                    "id": "b3075891-5c7c-45aa-ac77-0deda3ed638e",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
@@ -118,34 +118,12 @@
                 },
                 {
                     "name": "",
-                    "id": "13d0d672-5aec-40b2-920b-0592f4993cc1",
+                    "id": "d98f1e45-5b43-48e9-819a-c105b20e54af",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard/Mouse",
                     "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "214d0022-e01d-4999-af1a-121d5b359c64",
-                    "path": "<Mouse>/delta",
-                    "interactions": "",
-                    "processors": "FPSMouseDelta(valueShift=23)",
-                    "groups": "Keyboard/Mouse",
-                    "action": "LookAround",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "11717d32-6cac-4bdf-aa3b-37dce7fd60dd",
-                    "path": "<Gamepad>/rightStick/x",
-                    "interactions": "",
-                    "processors": "ScaleVector2(x=2,y=2),FPSMouseDelta(valueShift=2)",
-                    "groups": "Gamepad",
-                    "action": "LookAround",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -168,6 +146,28 @@
                     "processors": "",
                     "groups": "Keyboard/Mouse",
                     "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d68866e-0efe-4f2b-b441-fc6eedad953f",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "ScaleVector2",
+                    "groups": "Gamepad",
+                    "action": "LookAround",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "798200b3-1330-4013-a930-cd845115ac98",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=0.5,y=0.5),ScaleVector2(x=0.1,y=0.1)",
+                    "groups": "",
+                    "action": "LookAround",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
