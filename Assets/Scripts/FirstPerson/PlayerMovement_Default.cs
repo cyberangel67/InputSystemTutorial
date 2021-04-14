@@ -40,7 +40,7 @@ public class PlayerMovement_Default : MonoBehaviour
         }
 
         speed = walkSpeed;
-        if (IsRunning())
+        if (isRunning() && isGrounded())
         {
             speed = runSpeed;
         }

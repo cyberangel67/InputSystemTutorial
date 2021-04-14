@@ -17,7 +17,7 @@ public class PlayerMovement_Old : MonoBehaviour
     Vector3 velocity;
 
     private bool isGrounded() => Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-    private bool isJumping() => Input.GetKey(KeyCode.LeftShift);
+    private bool isRunning() => Input.GetKey(KeyCode.LeftShift);
     private bool canJump() => Input.GetButtonDown("Jump") && isGrounded();
 
     void Update()
@@ -34,7 +34,7 @@ public class PlayerMovement_Old : MonoBehaviour
         }
 
         speed = walkSpeed;
-        if(isJumping())
+        if (isRunning() && isGrounded())
         {
             speed = runSpeed;
         }

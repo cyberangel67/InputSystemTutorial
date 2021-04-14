@@ -37,7 +37,7 @@ public class PlayerMovement_Gamepad : MonoBehaviour
         }
 
         speed = walkSpeed;
-        if (IsRunning())
+        if (isRunning() && isGrounded())
         {
             speed = runSpeed;
         }

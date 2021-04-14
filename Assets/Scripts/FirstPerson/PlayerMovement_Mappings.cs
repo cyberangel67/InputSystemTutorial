@@ -45,7 +45,7 @@ public class PlayerMovement_Mappings : MonoBehaviour
         }
 
         speed = walkSpeed;
-        if (isRunning())
+        if (isRunning() && isGrounded())
         {
             speed = runSpeed;
         }
