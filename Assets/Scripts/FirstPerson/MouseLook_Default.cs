@@ -3,20 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class MouseLook_Default : MonoBehaviour
+public class MouseLook_Default : MouseLook
 {
 
-    [SerializeField] private float mouseSensitivity = 100f;
-    [SerializeField] private Transform playerBody;
-
-    float xRotation = 0f;
-
     Vector2 MousePosition() => Mouse.current.delta.ReadValue();
-
-    private void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
 
     void Update()
     {
@@ -25,16 +15,12 @@ public class MouseLook_Default : MonoBehaviour
         DoLook(direction);
     }
 
-    private void DoLook(Vector2 direction)
+    protected override void DoLook(Vector2 direction)
     {
         direction *= 0.5f;
         direction *= 0.1f;
 
-        xRotation -= direction.y;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * direction.x);
+        base.DoLook(direction);
     }
 
     private Vector2 DoDefaultLook()

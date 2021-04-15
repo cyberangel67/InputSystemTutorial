@@ -2,18 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouseLook_Mapping : MonoBehaviour
+public class MouseLook_Mapping : MouseLook
 {
-    [SerializeField] private float mouseSensitivity = 100f;
-    [SerializeField] private Transform playerBody;
-
-    float xRotation = 0f;
 
     private SystemControls controls;
     Vector2 LookMouse() => controls.PlayerControls.LookAround.ReadValue<Vector2>();
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         controls = new SystemControls();
     }
 
@@ -27,23 +24,11 @@ public class MouseLook_Mapping : MonoBehaviour
         controls.PlayerControls.Disable();
     }
 
-    void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
-
     void Update()
     {
         var delta = LookMouse();
-
         delta *= mouseSensitivity;
-        xRotation -= delta.y;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * delta.x);
+        base.DoLook(delta);
     }
-
 
 }
