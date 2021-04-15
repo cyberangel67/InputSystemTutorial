@@ -15,7 +15,16 @@ public class MouseLook_Mapping : MonoBehaviour
     private void Awake()
     {
         controls = new SystemControls();
+    }
+
+    private void OnEnable()
+    {
         controls.PlayerControls.Enable();
+    }
+
+    private void OnDisable()
+    {
+        controls.PlayerControls.Disable();
     }
 
     void Start()

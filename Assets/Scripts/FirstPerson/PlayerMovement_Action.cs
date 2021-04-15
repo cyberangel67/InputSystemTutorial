@@ -27,7 +27,7 @@ public class PlayerMovement_Action : MonoBehaviour
 
     private float speed;
 
-    private void Start()
+    private void Awake()
     {
         action = new InputAction(type: InputActionType.Value, binding: "Movement");
         action.AddCompositeBinding("2DVector")
@@ -47,10 +47,20 @@ public class PlayerMovement_Action : MonoBehaviour
 
         runAction = new InputAction(type: InputActionType.Button, binding: "<Gamepad>/leftStickPress");
         runAction.AddBinding("<Keyboard>/leftShift");
+    }
 
+    private void OnEnable()
+    {
         action.Enable();
         jumpAction.Enable();
         runAction.Enable();
+    }
+
+    private void OnDisable()
+    {
+        action.Disable();
+        jumpAction.Disable();
+        runAction.Disable();
     }
 
     void Update()
