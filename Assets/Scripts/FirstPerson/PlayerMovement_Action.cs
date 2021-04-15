@@ -13,6 +13,9 @@ public class PlayerMovement_Action : PlayerMovement
     InputAction jumpAction;
     InputAction runAction;
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private void Awake()
     {
         action = new InputAction(type: InputActionType.Value, binding: "Movement");
@@ -35,6 +38,9 @@ public class PlayerMovement_Action : PlayerMovement
         runAction.AddBinding("<Keyboard>/leftShift");
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private void OnEnable()
     {
         action.Enable();
@@ -42,6 +48,9 @@ public class PlayerMovement_Action : PlayerMovement
         runAction.Enable();
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private void OnDisable()
     {
         action.Disable();
@@ -49,6 +58,9 @@ public class PlayerMovement_Action : PlayerMovement
         runAction.Disable();
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     protected override Vector3 GetDirection()
     {
         return transform.right * Movement().x + transform.forward * Movement().y;

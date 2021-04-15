@@ -11,6 +11,9 @@ public class PlayerMovement_Gamepad : PlayerMovement
     Vector2 LeftStick() => Gamepad.current != null ? Gamepad.current.leftStick.ReadValue() : Vector2.zero;
     bool JumpPressed() => Gamepad.current != null ? Gamepad.current.buttonSouth.wasPressedThisFrame : false;
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     protected override Vector3 GetDirection()
     {
         return transform.right * LeftStick().x + transform.forward * LeftStick().y;

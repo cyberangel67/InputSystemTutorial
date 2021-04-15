@@ -10,21 +10,33 @@ public class PlayerMovement_Mappings : PlayerMovement
     protected override bool isRunning() => controls.PlayerControls.Run.IsPressed();
     protected override bool canJump() => controls.PlayerControls.Jump.triggered && isGrounded();
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private void Awake()
     {
         controls = new SystemControls();
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private void OnEnable()
     {
         controls.PlayerControls.Enable();
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private void OnDisable()
     {
         controls.PlayerControls.Disable();
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     protected override Vector3 GetDirection()
     {
         return transform.right * Movement().x + transform.forward * Movement().y;

@@ -39,7 +39,7 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                     ""name"": ""LookAround"",
                     ""type"": ""Value"",
                     ""id"": ""8fc71ac5-abb2-4582-a152-23b31ac28a9d"",
-                    ""expectedControlType"": """",
+                    ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """"
                 },
@@ -188,7 +188,7 @@ public partial class @SystemControls : IInputActionCollection2, IDisposable
                     ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
                     ""processors"": ""ScaleVector2(x=0.5,y=0.5),ScaleVector2(x=0.1,y=0.1)"",
-                    ""groups"": """",
+                    ""groups"": ""Keyboard and Mouse"",
                     ""action"": ""LookAround"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false

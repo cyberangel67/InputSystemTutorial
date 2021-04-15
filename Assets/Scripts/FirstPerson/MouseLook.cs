@@ -9,12 +9,18 @@ public abstract class MouseLook : MonoBehaviour
 
     protected float xRotation = 0f;
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     protected virtual void Awake()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     protected virtual void DoLook(Vector2 direction)
     {
         xRotation -= direction.y;

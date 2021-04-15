@@ -8,6 +8,9 @@ public class MouseLook_Default : MouseLook
 
     Vector2 MousePosition() => Mouse.current.delta.ReadValue();
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     void Update()
     {
         Vector2 direction = DoDefaultLook();
@@ -15,6 +18,9 @@ public class MouseLook_Default : MouseLook
         DoLook(direction);
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     protected override void DoLook(Vector2 direction)
     {
         direction *= 0.5f;
@@ -23,6 +29,9 @@ public class MouseLook_Default : MouseLook
         base.DoLook(direction);
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private Vector2 DoDefaultLook()
     {
         float mouseX = MousePosition().x * mouseSensitivity;

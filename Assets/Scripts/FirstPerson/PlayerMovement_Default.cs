@@ -11,6 +11,9 @@ public class PlayerMovement_Default : PlayerMovement
     protected override bool isRunning() => Keyboard.current.leftShiftKey.IsPressed();
     protected override bool canJump() => KeyJump() && isGrounded();
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     protected override Vector3 GetDirection()
     {
         Vector3 move = transform.right * Horizontal + transform.forward * Vertical;

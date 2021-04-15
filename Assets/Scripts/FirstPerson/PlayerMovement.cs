@@ -19,6 +19,9 @@ public abstract class PlayerMovement : MonoBehaviour
     protected virtual bool canJump() => false;
     protected virtual bool isRunning() => false;
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     protected virtual void Update()
     {
         if (isGrounded() && velocity.y < 0)
@@ -43,6 +46,9 @@ public abstract class PlayerMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     protected virtual Vector3 GetDirection()
     {
         throw new NotImplementedException();

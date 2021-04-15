@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MouseLook_Old : MouseLook
 {
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private void Update()
     {
         Vector2 direction = OldMouseLook();
@@ -11,6 +14,9 @@ public class MouseLook_Old : MouseLook
         DoLook(direction);
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private Vector2 OldMouseLook()
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
