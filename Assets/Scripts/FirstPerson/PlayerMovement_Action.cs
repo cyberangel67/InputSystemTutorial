@@ -12,7 +12,7 @@ public class PlayerMovement_Action : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float jumpHeight;
     [SerializeField] private float walkSpeed = 12f;
-    [SerializeField] private float runSpeed = 12f;
+    [SerializeField] private float runSpeed = 20f;
 
     Vector3 velocity;
     bool isGrounded() => Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);

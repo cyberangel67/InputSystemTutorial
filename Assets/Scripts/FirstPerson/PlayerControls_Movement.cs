@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement_Mappings : MonoBehaviour
+public class PlayerControls_Movement : MonoBehaviour
 {
     [SerializeField] private CharacterController controller;
     [SerializeField] private float gravity = -9.81f;
@@ -18,27 +18,11 @@ public class PlayerMovement_Mappings : MonoBehaviour
     private bool isGrounded() => Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
     private float speed;
 
-    private SystemControls controls;
-    private Vector2 Movement()=> controls.PlayerControls.Movement.ReadValue<Vector2>();
+    private bool isJumping;
 
-    private bool isRunning() => controls.PlayerControls.Run.IsPressed();
-    private bool canJump() => controls.PlayerControls.Jump.triggered && isGrounded();
+    private bool canJump() => isJumping && isGrounded();
 
-
-    private void Awake()
-    {
-        controls = new SystemControls();
-    }
-
-    private void OnEnable()
-    {
-        controls.PlayerControls.Enable();
-    }
-
-    private void OnDisable()
-    {
-        controls.PlayerControls.Disable();
-    }
+    Vector3 move = Vector3.zero;
 
     private void Update()
     {
@@ -47,25 +31,28 @@ public class PlayerMovement_Mappings : MonoBehaviour
             velocity.y = -2f;
         }
 
-        if (canJump())
-        {
-            velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
-        }
-
         speed = walkSpeed;
-        if (isRunning() && isGrounded())
-        {
-            speed = runSpeed;
-        }
 
-        Vector3 move = GetDirection();
         controller.Move(move * speed * Time.deltaTime);
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
     }
 
-    private Vector3 GetDirection()
+    public void OnMove(InputAction.CallbackContext value)
     {
-        return transform.right * Movement().x + transform.forward * Movement().y;
+        Vector2 direction = value.ReadValue<Vector2>();
+        move = transform.right * direction.x + transform.forward * direction.y;
     }
+
+    public void OnJump(InputAction.CallbackContext value)
+    {
+        //isJumping = value.ReadValueAsButton();
+
+        if (isGrounded())
+        {
+            Debug.Log($"Jump {value.ReadValueAsButton()}");
+            velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
+        }
+    }
+
 }
