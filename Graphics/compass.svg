@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1200"
+   height="35"
+   viewBox="0 0 317.5 9.2604168"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="compass.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="401.5785"
+     inkscape:cy="15.978694"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="11.360547,5.2999349"
+       orientation="0,-1"
+       id="guide1129" />
+    <sodipodi:guide
+       position="12.774414,0.66559247"
+       orientation="0,-1"
+       id="guide1131" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#83bc6a;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect1289"
+       width="317.5"
+       height="9.260417"
+       x="0"
+       y="0"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844"
+       width="0.26458332"
+       height="2.6458333"
+       x="0.031603806"
+       y="-4.2430081"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.76256px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264586"
+       x="13.065221"
+       y="8.503108"
+       id="text850"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         id="tspan848"
+         x="13.065221"
+         y="8.503108"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.76256px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264586">195</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9"
+       width="0.52916664"
+       height="2.6458333"
+       x="12.964583"
+       y="0.52916664"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0"
+       width="0.52916664"
+       height="2.6458333"
+       x="26.19375"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-8"
+       width="0.52916664"
+       height="2.6458333"
+       x="39.422916"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-0"
+       width="0.52916664"
+       height="2.6458333"
+       x="52.652084"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-05"
+       width="0.52916664"
+       height="2.6458333"
+       x="65.881248"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-4"
+       width="0.52916664"
+       height="2.6458333"
+       x="78.779694"
+       y="-6.3499999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-3"
+       width="0.52916664"
+       height="2.6458333"
+       x="92.339584"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-1"
+       width="0.52916664"
+       height="2.6458333"
+       x="105.56875"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-45"
+       width="0.52916664"
+       height="2.6458333"
+       x="118.79792"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-39"
+       width="0.52916664"
+       height="2.6458333"
+       x="132.02708"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-19"
+       width="0.52916664"
+       height="2.6458333"
+       x="145.25626"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-32"
+       width="0.52916664"
+       height="2.6458333"
+       x="158.27493"
+       y="-5.0527711"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-6"
+       width="0.52916664"
+       height="2.6458333"
+       x="171.71458"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-2"
+       width="0.52916664"
+       height="2.6458333"
+       x="184.94376"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-9"
+       width="0.52916664"
+       height="2.6458333"
+       x="198.17291"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-38"
+       width="0.52916664"
+       height="2.6458333"
+       x="211.40208"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-384"
+       width="0.52916664"
+       height="2.6458333"
+       x="224.63126"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#180e0e;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-389"
+       width="0.52916664"
+       height="2.6458333"
+       x="236.00833"
+       y="-6.283854"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-62"
+       width="0.52916664"
+       height="2.6458333"
+       x="251.08958"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-67"
+       width="0.52916664"
+       height="2.6458333"
+       x="264.31876"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-90"
+       width="0.52916664"
+       height="2.6458333"
+       x="277.54791"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-381"
+       width="0.52916664"
+       height="2.6458333"
+       x="290.77707"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-96"
+       width="0.52916664"
+       height="2.6458333"
+       x="304.00626"
+       y="0.79374999"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:0.842105"
+       id="rect844-9-0-37"
+       width="0.26458332"
+       height="2.6458333"
+       x="317.14603"
+       y="-4.4131627"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="26.429848"
+       y="8.5683556"
+       id="text850-4"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="26.429848"
+         y="8.5683556"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1125">210</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="39.608147"
+       y="8.5366926"
+       id="text850-4-6"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="39.608147"
+         y="8.5366926"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1125-3">SW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="52.888763"
+       y="8.5482426"
+       id="text850-4-5"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="52.888763"
+         y="8.5482426"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1125-8">240</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="66.177521"
+       y="8.3798323"
+       id="text850-4-5-8"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="66.177521"
+         y="8.3798323"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1125-8-4">255</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="74.857193"
+       y="8.5874357"
+       id="text850-4-6-7"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="74.857193"
+         y="8.5874357"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1125-3-9">W</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="92.636436"
+       y="8.502779"
+       id="text850-4-5-8-8"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="92.636436"
+         y="8.502779"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1388">285</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="105.79031"
+       y="8.5203886"
+       id="text850-4-5-8-8-4"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="105.79031"
+         y="8.5203886"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1388-9">300</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="118.8756"
+       y="8.5415344"
+       id="text850-4-5-8-8-4-6"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="118.8756"
+         y="8.5415344"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1388-9-3">NW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="132.24924"
+       y="8.5064564"
+       id="text850-4-5-8-8-4-4"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="132.24924"
+         y="8.5064564"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1388-9-2">330</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="145.53799"
+       y="8.5415344"
+       id="text850-4-5-8-8-4-4-3"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="145.53799"
+         y="8.5415344"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1388-9-2-8">345</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="158.02162"
+       y="8.5951786"
+       id="text850-4-6-7-4"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="158.02162"
+         y="8.5951786"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1125-3-9-3">N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="171.87482"
+       y="8.5224943"
+       id="text850-4-5-8-8-4-4-3-4"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="171.87482"
+         y="8.5224943"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1388-9-2-8-1">15</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="185.16707"
+       y="8.5274506"
+       id="text850-4-5-8-8-4-4-3-4-4"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="185.16707"
+         y="8.5274506"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1388-9-2-8-1-0">30</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="198.32559"
+       y="8.5356884"
+       id="text850-4-5-8-8-4-4-3-4-4-4"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="198.32559"
+         y="8.5356884"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1388-9-2-8-1-0-9">NE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="211.63992"
+       y="8.5121202"
+       id="text850-4-5-8-8-4-4-3-4-4-2"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="211.63992"
+         y="8.5121202"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1608">60</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="224.9438"
+       y="8.5345325"
+       id="text850-4-5-8-8-4-4-3-4-4-2-6"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="224.9438"
+         y="8.5345325"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1608-7">75</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="238.00826"
+       y="8.5830975"
+       id="text850-4-6-7-4-1"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"><tspan
+         sodipodi:role="line"
+         x="238.00826"
+         y="8.5830975"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1125-3-9-3-3">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="251.25156"
+       y="8.5090199"
+       id="text850-4-5-8-8-4-4-3-4-4-2-6-0"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="251.25156"
+         y="8.5090199"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1608-7-1">105</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="264.42172"
+       y="8.5593481"
+       id="text850-4-5-8-8-4-4-3-4-4-2-6-0-0"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="264.42172"
+         y="8.5593481"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1608-7-1-3">120</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="277.78024"
+       y="8.5543909"
+       id="text850-4-5-8-8-4-4-3-4-4-4-9"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="277.78024"
+         y="8.5543909"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1388-9-2-8-1-0-9-6">SE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="290.88062"
+       y="8.5454063"
+       id="text850-4-5-8-8-4-4-3-4-4-2-6-0-0-2"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="290.88062"
+         y="8.5454063"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1608-7-1-3-9">150</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264577"
+       x="304.11011"
+       y="8.5175819"
+       id="text850-4-5-8-8-4-4-3-4-4-2-6-0-0-2-4"
+       transform="scale(0.99997801,1.000022)"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:transform-center-x="1.5213542"
+       inkscape:transform-center-y="0.26458334"><tspan
+         sodipodi:role="line"
+         x="304.11011"
+         y="8.5175819"
+         style="font-size:4.7625px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264577"
+         id="tspan1608-7-1-3-9-2">165</tspan></text>
+    <path
+       id="text850-4-6-7-4-1-8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.999976"
+       d="M 1200,32.265625 V 29.15625 c -1.2166,-0.06236 -2.3805,-0.21548 -3.3828,-0.646484 -1.1719,-0.515637 -2.0391,-1.183576 -2.6016,-2.003907 -0.5507,-0.832049 -0.9023,-1.892549 -1.0547,-3.18164 l -3.2168,0.28125 c 0.047,1.722694 0.5157,3.269501 1.4063,4.640625 0.9023,1.359405 2.1387,2.378891 3.709,3.058594 1.4023,0.602521 3.1489,0.89252 5.1406,0.960937 z"
+       transform="scale(0.26458333)"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       id="path1842"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.999976"
+       d="m 1200,5.6933594 c -0.071,-8.665e-4 -0.1298,-0.017578 -0.2012,-0.017578 -1.7343,0 -3.3105,0.2929559 -4.7285,0.8789063 -1.4179,0.5859504 -2.4961,1.4472407 -3.2344,2.5839844 -0.7382,1.1250249 -1.1074,2.3378619 -1.1074,3.6386719 0,1.183619 0.2989,2.255838 0.8965,3.216797 0.6094,0.949239 1.5293,1.746079 2.7598,2.390625 0.9492,0.503917 2.6074,1.042956 4.9746,1.617187 0.3306,0.07856 0.3427,0.10098 0.6406,0.173828 v -3.537109 c -2.6576,-0.617906 -4.3409,-1.220384 -4.9824,-1.804688 -0.668,-0.597669 -1.002,-1.359354 -1.002,-2.285156 0,-1.06643 0.4688,-1.974593 1.4063,-2.724609 0.9492,-0.7617355 2.4551,-1.1425782 4.5176,-1.1425782 0.023,0 0.038,0.0077 0.061,0.00781 z"
+       transform="scale(0.26458333)"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       id="text850-4-6-7-4-1-8-2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.999976"
+       d="m 0,5.8535156 v 2.9960938 c 1.9462077,0.00957 3.4238539,0.417863 4.4199219,1.2402346 1.0195088,0.832049 1.6171913,2.062464 1.7929687,3.691406 L 9.4824219,13.535156 C 9.4238294,12.023404 9.0019358,10.669948 8.2167969,9.4746094 7.4316579,8.2792706 6.3066083,7.3769665 4.8417969,6.7675781 3.442976,6.1696687 1.8223407,5.8758472 0,5.8535156 Z"
+       transform="scale(0.26458333)"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       id="path1851"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;line-height:1;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.999976"
+       d="m 0,32.427734 c 0.25457296,0.0087 0.46431623,0.05664 0.72851562,0.05664 1.83980318,0 3.49221978,-0.33397 4.95703128,-1.001953 1.4765299,-0.679703 2.6074392,-1.62302 3.3925781,-2.830078 0.7851389,-1.218777 1.177734,-2.513642 1.177734,-3.884766 0,-1.382843 -0.3574373,-2.601539 -1.0722652,-3.65625 C 8.4687658,20.044898 7.3612951,19.166031 5.8613281,18.474609 4.8301008,18.005849 2.9257201,17.460951 0.1484375,16.839844 0.08730621,16.825855 0.06010066,16.812799 0,16.798828 v 3.53711 c 1.8351746,0.448745 3.3504845,0.842326 3.9453125,1.074218 1.0781012,0.410166 1.8515728,0.919909 2.3203125,1.529297 0.4687397,0.597669 0.703125,1.300764 0.703125,2.109375 0,0.796893 -0.2461046,1.535141 -0.7382812,2.214844 C 5.7500106,27.931655 5.0116968,28.458976 4.015625,28.845703 3.0195532,29.23243 1.8710651,29.425781 0.5703125,29.425781 0.35896352,29.425781 0.20525012,29.326897 0,29.316406 Z"
+       transform="scale(0.26458333)"
+       inkscape:export-filename="E:\Unity\Tutorials\TutorialNewInput\Assets\Textures\Compass_inkscape.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2" />
+</svg>

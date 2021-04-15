@@ -23,7 +23,6 @@ public class Compass : MonoBehaviour
 		displayangle = Mathf.RoundToInt(headingAngle);
 
 		CompassDirectionText.text = displayangle switch { 
-		
 			0 => "N",
 			360 => "N",
 			45 => "NE",
@@ -35,6 +34,7 @@ public class Compass : MonoBehaviour
 			315 => "NW",
 			_ => headingAngle.ToString()
 		};
+
 	}
 
 }
