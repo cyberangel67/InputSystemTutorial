@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement_Old : PlayerMovement
@@ -14,4 +12,5 @@ public class PlayerMovement_Old : PlayerMovement
 
         return transform.right * x + transform.forward * z;
     }
+
 }
