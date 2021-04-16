@@ -629,7 +629,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh43332
+  m_Name: pb_Mesh46338
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1189,7 +1189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fd9376ccfbccb78489c84d1f57510cd8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a3c571fa73c9d4e428c8a771e6df1883, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

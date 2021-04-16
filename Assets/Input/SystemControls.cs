@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-public partial class @SystemControls : IInputActionCollection, IDisposable
+public partial class @SystemControls : IInputActionCollection2, IDisposable
 {
     public InputActionAsset asset { get; }
     public @SystemControls()
@@ -131,7 +131,7 @@ public partial class @SystemControls : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""b3075891-5c7c-45aa-ac77-0deda3ed638e"",
                     ""path"": ""<Gamepad>/buttonSouth"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Jump"",
@@ -142,7 +142,7 @@ public partial class @SystemControls : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""d98f1e45-5b43-48e9-819a-c105b20e54af"",
                     ""path"": ""<Keyboard>/space"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": ""Keyboard and Mouse"",
                     ""action"": ""Jump"",

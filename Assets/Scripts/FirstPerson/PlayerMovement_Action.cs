@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -31,8 +29,8 @@ public class PlayerMovement_Action : PlayerMovement
             .With("Left", "<Gamepad>/leftStick/left")
             .With("Right", "<Gamepad>/leftStick/right");
 
-        jumpAction = new InputAction(type: InputActionType.Button, binding: "<Gamepad>/buttonSouth");
-        jumpAction.AddBinding("<Keyboard>/space");
+        jumpAction = new InputAction(type: InputActionType.Button, binding: "<Gamepad>/buttonSouth", interactions: "Press");
+        jumpAction.AddBinding("<Keyboard>/space", interactions: "Press");
 
         runAction = new InputAction(type: InputActionType.Button, binding: "<Gamepad>/leftStickPress");
         runAction.AddBinding("<Keyboard>/leftShift");
