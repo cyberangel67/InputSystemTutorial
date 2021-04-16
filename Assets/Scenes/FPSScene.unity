@@ -27162,7 +27162,19 @@ MonoBehaviour:
     m_ActionId: 8fc71ac5-abb2-4582-a152-23b31ac28a9d
     m_ActionName: PlayerControls/LookAround[/XInputControllerWindows/rightStick,/Mouse/delta]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6428774015688833630}
+        m_TargetAssemblyTypeName: PlayerControls_Movement, Assembly-CSharp
+        m_MethodName: OnRun
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 6d0ea51f-58de-4b96-a1e7-2f34613ddff3
     m_ActionName: PlayerControls/Run[/XInputControllerWindows/leftStickPress,/Keyboard/leftShift]
   - m_PersistentCalls:
