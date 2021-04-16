@@ -10,7 +10,6 @@ public class MouseLook_Old : MouseLook
     private void Update()
     {
         Vector2 direction = OldMouseLook();
-
         DoLook(direction);
     }
 

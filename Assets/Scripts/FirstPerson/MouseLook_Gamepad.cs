@@ -22,7 +22,6 @@ public class MouseLook_Gamepad : MouseLook
     //------------------------------------------------------------------------------------------------------
     protected override void DoLook(Vector2 direction)
     {
-        direction *= 0.3f;
         base.DoLook(direction);
     }
 
