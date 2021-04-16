@@ -24,6 +24,9 @@ public class PlayerControls_Movement : MonoBehaviour
 
     Vector3 move = Vector3.zero;
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     private void Update()
     {
         if (isGrounded() && velocity.y < 0)
@@ -38,19 +41,22 @@ public class PlayerControls_Movement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     public void OnMove(InputAction.CallbackContext value)
     {
         Vector2 direction = value.ReadValue<Vector2>();
         move = transform.right * direction.x + transform.forward * direction.y;
     }
 
+    //------------------------------------------------------------------------------------------------------
+    //
+    //------------------------------------------------------------------------------------------------------
     public void OnJump(InputAction.CallbackContext value)
     {
-        //isJumping = value.ReadValueAsButton();
-
         if (isGrounded())
         {
-            Debug.Log($"Jump {value.ReadValueAsButton()}");
             velocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
         }
     }
