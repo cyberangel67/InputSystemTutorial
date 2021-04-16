@@ -23,6 +23,7 @@ public class PlayerControls_Movement : MonoBehaviour
     private bool canJump() => isJumping && isGrounded();
 
     Vector3 move = Vector3.zero;
+    Vector2 direction = Vector2.zero;
 
     //------------------------------------------------------------------------------------------------------
     //
@@ -36,6 +37,8 @@ public class PlayerControls_Movement : MonoBehaviour
 
         speed = walkSpeed;
 
+        move = transform.right * direction.x + transform.forward * direction.y;
+
         controller.Move(move * speed * Time.deltaTime);
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
@@ -46,8 +49,7 @@ public class PlayerControls_Movement : MonoBehaviour
     //------------------------------------------------------------------------------------------------------
     public void OnMove(InputAction.CallbackContext value)
     {
-        Vector2 direction = value.ReadValue<Vector2>();
-        move = transform.right * direction.x + transform.forward * direction.y;
+        direction = value.ReadValue<Vector2>();
     }
 
     //------------------------------------------------------------------------------------------------------
